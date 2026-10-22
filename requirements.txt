@@ -1,0 +1,54 @@
+# ==============================
+# Web Framework
+# ==============================
+fastapi
+uvicorn[standard]
+
+# ==============================
+# Database
+# ==============================
+sqlalchemy
+asyncpg
+alembic
+
+# ==============================
+# Configuration
+# ==============================
+pydantic
+pydantic-settings
+python-dotenv
+
+# ==============================
+# Authentication & Security
+# ==============================
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+
+# ==============================
+# HTTP Client
+# ==============================
+httpx
+
+# ==============================
+# Validation & Utilities
+# ==============================
+email-validator
+python-multipart
+
+# ==============================
+# Rate Limiting
+# ==============================
+slowapi
+
+# ==============================
+# Testing
+# ==============================
+pytest
+pytest-asyncio
+httpx
+
+# ==============================
+# Production Server
+# ==============================
+gunicorn
